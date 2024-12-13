@@ -39,7 +39,7 @@ export const Places = () => {
 
   return (
     <Container>
-      <Box>
+      <Box py={"6xl"}>
         <Text color="primary" variant={"h3"} display={"block"}>
           where Beauty meets serenity
         </Text>
