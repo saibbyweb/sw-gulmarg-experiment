@@ -1,0 +1,13 @@
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: #5463ff !important;
+}
+.slider .swiper-pagination-clickable .swiper-pagination-bullet-active {
+  width: 30px !important;
+  height: 8px;
+  border-radius: 10px 10px;
+  transition: all ease-in-out 0.5s;
+}
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 40px !important;
+}
