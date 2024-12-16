@@ -1,14 +1,9 @@
 "use client";
 import { Box, CenterBox, Container, Text } from "@/components";
+import { navbarItems } from "@/constant/navbarItems";
 import React from "react";
 
 // Array of navbar items
-const navbarItems = [
-  { label: "About Us", href: "#about-us" },
-  { label: "Popular Destinations", href: "#popular-destinations" },
-  { label: "Contact with us", href: "#contact" },
-  { label: "Our Packages", href: "#our-packages" },
-];
 
 export const Navbar = () => {
   return (

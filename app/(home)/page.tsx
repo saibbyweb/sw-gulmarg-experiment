@@ -4,6 +4,7 @@ import { Places } from "./components/Places";
 import { Packages } from "./components/Packages";
 import { Contact } from "./components/Contact";
 import { Navbar } from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 const Page = () => {
   return (
@@ -12,6 +13,7 @@ const Page = () => {
       <Places />
       <Packages />
       <Contact />
+      <Footer />
     </Box>
   );
 };
