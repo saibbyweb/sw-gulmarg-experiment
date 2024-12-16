@@ -11,6 +11,7 @@ export const BASE_COLORS = {
   foreground: "",
   blue: "#195FF3",
   lightBlue: "#F3FAFF",
+  yellow: "#FFD700",
 };
 
 export const LIGHT_COLORS = {

@@ -33,11 +33,13 @@ const ChatButton = styled(HoverBox)`
 export default function Footer() {
   return (
     <Banner>
-      <Box pt={"4xl"}>
+      <Box pt={"5xl"}>
         <Text fontSize={40} fontFamily={BASE_FONTS.instink} fontWeight="bold">
           Your Dream Vacation Awaits
         </Text>
-        <Text fontSize={20}>Discover The Magic Of Kashmir</Text>
+        <Text fontSize={20} mt={"md"}>
+          Discover The Magic Of Kashmir
+        </Text>
       </Box>
       <Box mt={"5xl"}>
         <Text fontSize={20} mb={"lg"}>
