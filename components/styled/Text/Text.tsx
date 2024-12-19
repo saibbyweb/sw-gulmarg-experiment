@@ -1,11 +1,12 @@
 "use client";
 import {
+  TextVariantsType,
   ThemedBorderRadiusProps,
   ThemedColorProps,
   ThemedSpaceProps,
 } from "@/theme";
 
-import { AppThemeWeights, AppThemeFonts, AppTextVariants } from "@/theme";
+import { AppThemeWeights, AppThemeFonts } from "@/theme";
 import { StyledWithConfig } from "@/theme/StyledWithConfig";
 import styled, { keyframes } from "styled-components";
 import {
@@ -63,7 +64,7 @@ type TextProps = WidthProps &
     font?: AppThemeFonts;
     weight?: AppThemeWeights;
     size?: ResponsiveValue<number | string>;
-    variant?: AppTextVariants;
+    variant?: TextVariantsType;
   };
 
 export const Text = styled.span.withConfig(StyledWithConfig)<TextProps>`

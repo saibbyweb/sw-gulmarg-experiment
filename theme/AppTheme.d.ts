@@ -33,7 +33,7 @@ export interface AppThemeComplete {
   };
   textVariants: {
     [key: string]: {
-      [property: string]: string | number;
+      [property: string]: unknown;
     };
   };
   buttonVariants: {

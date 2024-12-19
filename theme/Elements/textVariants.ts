@@ -50,3 +50,5 @@ export const BASE_TEXT_VARIANTS = {
     },
   },
 };
+
+export type TextVariantsType =  keyof typeof BASE_TEXT_VARIANTS

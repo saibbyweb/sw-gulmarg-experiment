@@ -45,7 +45,7 @@ export const StyledInputBox = styled.input.withConfig(
   outline: none;
   font-family: DMSansRegular;
   font-size: 15px;
-  padding-left: ${BASE_SPACING.l}px;
+  padding-left: ${BASE_SPACING.lg}px;
   ${border}
   ${background}
   ${layout}
@@ -62,8 +62,8 @@ export const StyledInputBox = styled.input.withConfig(
     height: 100%;
     border: none;
     border-radius: ${BASE_SPACING.s}px;
-    margin-right: ${BASE_SPACING.l}px;
-    padding-left: ${BASE_SPACING.l}px;
-    padding-right: ${BASE_SPACING.l}px;
+    margin-right: ${BASE_SPACING.lg}px;
+    padding-left: ${BASE_SPACING.lg}px;
+    padding-right: ${BASE_SPACING.lg}px;
   }
 `;

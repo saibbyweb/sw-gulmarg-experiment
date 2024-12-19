@@ -179,7 +179,7 @@ const DateRangePicker: React.FC<DateRangePickerProps> = ({
   return (
     <Box width={width ? width : "300px"} height={"fit-content"} gap={"m"}>
       {label ? (
-        <Box px={"l"} width={"100%"}>
+        <Box px={"lg"} width={"100%"}>
           <Text fontSize={18} color={labelColor ? labelColor : "foreground"}>
             {label}
           </Text>

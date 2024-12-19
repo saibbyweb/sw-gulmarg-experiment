@@ -33,14 +33,13 @@ const SubmitButton = styled(HoverBox)`
 export const BannerRightSide = () => {
   return (
     <Box
-      backgroundColor="rgba(255, 255, 255, 0.15)"
-      borderRadius="12px"
+      style={{ backgroundColor: "rgba(255, 255, 255, 0.15)", backdropFilter: "blur(10px)" }}
+      borderRadius="m"
       px={["xl", "2xl"]}
       py={["lg", "3xl"]}
-      backdropFilter="blur(10px)"
       boxShadow="0 4px 8px rgba(0, 0, 0, 0.2)"
     >
-      <Text variant="H3" fontSize={[20, 24]} mb="md">
+      <Text variant="H2" fontSize={[20, 24]} mb="md">
         Plan Your Perfect Escape to Kashmir Today
       </Text>
       <Box my={"4xl"}>

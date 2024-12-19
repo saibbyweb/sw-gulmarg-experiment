@@ -19,7 +19,7 @@ export default function Components() {
   return (
     <Box width={"100%"} height={"100%"} backgroundColor={"background"}>
       <Box width={"100%"} alignItems={"center"} p={"xl"} position={"relative"}>
-        <Text color="foreground" variant="heading" letterSpacing={5}>
+        <Text color="foreground" variant="H2" letterSpacing={5}>
           Components
         </Text>
         <Row alignItems={"center"} position={"absolute"} right={20} gap={"m"}>
@@ -29,14 +29,14 @@ export default function Components() {
           <ThemeSwitch />
         </Row>
       </Box>
-      <Box width={"100%"} height={"100%"} p={"l"}>
+      <Box width={"100%"} height={"100%"} p={"lg"}>
         <Formik
           initialValues={{ name: "", description: "", url: "" }}
           onSubmit={() => {}}
         >
           {({}) => (
             <Form style={{ width: "100%", height: "100%" }}>
-              <Box width={"100%"} borderRed height={"100%"} p={"m"} gap={"m"}>
+              <Box width={"100%"} borderRed height={"100%"} p={"md"} gap={"m"}>
                 <Row gap={"m"}>
                   <InputBox
                     boxShadow

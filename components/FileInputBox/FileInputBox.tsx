@@ -69,7 +69,7 @@ export const FileInputBox: React.FC<FileInputBoxProps> = ({
   return (
     <Box gap={"m"} width={"fit-content"}>
       {label ? (
-        <Box pl={"l"} width={"100%"}>
+        <Box pl={"lg"} width={"100%"}>
           <Text fontSize={18} color={labelColor ? labelColor : "foreground"}>
             {label}
           </Text>
@@ -82,7 +82,7 @@ export const FileInputBox: React.FC<FileInputBoxProps> = ({
           borderRadius={"m"}
           width={"170px"}
           height={"170px"}
-          pl={"l"}
+          pl={"lg"}
           onClick={handleUploadButtonClick}
           style={{ cursor: "pointer" }}
           p={"xl"}

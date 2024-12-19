@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Box, Text } from "@/components";
-import { Button, Container } from "@/components/styled";
+import { Container } from "@/components/styled";
 import { Col, Row } from "antd";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -114,7 +114,7 @@ export const Packages = () => {
       <Box py={"6xl"}>
         {/* Title Section */}
         <Box mb={"xl"}>
-          <Text color="primary" variant={"h3"}>
+          <Text color="primary" variant={"H2"}>
             Our Packages
           </Text>
           <Text variant="H2" mb="xl" color="primary">

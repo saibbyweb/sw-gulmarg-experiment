@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import { Text, OpacityText, Container, Row } from "@/components";
-import { Box, CenterBox, HoverBox } from "@/components";
+import { Text, Container, Row } from "@/components";
+import { Box } from "@/components";
 import styled from "styled-components";
 import { BASE_COLORS } from "@/theme";
 

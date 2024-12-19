@@ -53,7 +53,7 @@ export const TextArea: React.FC<TextAreaProps> = ({
 
   return (
     <Column gap={label ? "m" : "none"} width={width ? width : "100%"}>
-      <Row px={"l"} width={"100%"} justifyContent={"space-between"}>
+      <Row px={"lg"} width={"100%"} justifyContent={"space-between"}>
         {label ? (
           <Text fontSize={18} color={labelColor ? labelColor : "foreground"}>
             {label}
